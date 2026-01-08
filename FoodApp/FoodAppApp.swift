@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import SwiftData
+import FirebaseCore
 
 @main
 struct FoodAppApp: App {
+    init() {
+        // configure firebase
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
+        .modelContainer(for: CartItemSwiftData.self)
     }
 }
