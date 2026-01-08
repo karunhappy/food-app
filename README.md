@@ -88,7 +88,7 @@ The project focuses on **clean architecture, MVVM, local persistence, and Firest
 5. **Run the app**
 
    * Select a simulator or device
-   * Press ▶️ Run
+   * Press Run
 
 ## Assumptions Made
 
